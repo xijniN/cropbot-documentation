@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(119, 118, 134);
+}
+
+.tabs{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 250px);
+    display: grid;
+    place-items: center;
+}
+
+.tabs a button{
+    width: 160px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 161, 161);
+    color: white;
+    font-size: 20px;;
+    cursor: pointer;
+    transition: width .2s;
+}
+
+.tabs a button:hover{
+    width: 190px;
+}
